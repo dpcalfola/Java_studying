@@ -1,3 +1,4 @@
 public class HelloWorldApp {
- public static void ()
+ public static void (String arge[])
+ System.out.print
 }
