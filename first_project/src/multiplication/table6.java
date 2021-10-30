@@ -15,6 +15,8 @@ public class table6 {
 			i = i + 1;
 
 		}
+		
+		getNumber.close();
 
 	}
 
