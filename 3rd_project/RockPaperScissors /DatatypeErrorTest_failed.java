@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DatatypeErrorTest {
+public class DatatypeErrorTest_failed {
 
 	public static void main(String[] args) {
 		int checkNumber = 0 ;

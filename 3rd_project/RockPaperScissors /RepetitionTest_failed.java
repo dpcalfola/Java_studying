@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RepetitionTest {
+public class RepetitionTest_failed {
 
 	public static void main(String[] args) {
 
