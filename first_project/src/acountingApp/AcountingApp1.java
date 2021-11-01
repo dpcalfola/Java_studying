@@ -4,7 +4,7 @@ public class AcountingApp1 {
 
 	public static void main(String[] args) {
 
-		double valueOfSupply = Double.parseDouble(args[0]);
+		double valueOfSupply = 50000.0;
 		 
 		
 		double vatRate = 0.1;
