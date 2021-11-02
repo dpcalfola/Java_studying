@@ -2,10 +2,20 @@ package rockScissorsPaper;
 
 import java.util.Scanner;
 
-public class rockScissorsPaperApp {
+public class RockScissorsPaperMethodApp {
+
+	int tieCounter = 0;
+	int userWinCounter = 0;
+	int computerWinCounter = 0;
 
 	public static void main(String[] args) {
 
+		System.out.println("Rock Scissors Paper!!");
+		rockScissorsPaper();
+
+	}
+
+	public static void rockScissorsPaper() {
 		String[] rockScissorsPaper = new String[3];
 		rockScissorsPaper[0] = "Rock";
 		rockScissorsPaper[1] = "Scissors";
@@ -15,7 +25,6 @@ public class rockScissorsPaperApp {
 		int computerChoiceInt = (int) computerChoiceDouble;
 		int userChoiceInt = 9;
 
-		System.out.println("Rock Scissors Paper!!");
 		System.out.print("\nPlese input your choice - r or s or p : ");
 
 		Scanner scannerUserInput = new Scanner(System.in);
@@ -59,7 +68,6 @@ public class rockScissorsPaperApp {
 		}
 
 		scannerUserInput.close();
-
 	}
 
 }
