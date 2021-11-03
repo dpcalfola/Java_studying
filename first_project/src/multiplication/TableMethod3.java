@@ -2,13 +2,11 @@ package multiplication;
 
 import java.util.Scanner;
 
-public class TableMethod2 {
+public class TableMethod3 {
 
 	public static void main(String[] args) {
 
-		int key = getInputNumber();
-
-		multiplication(key);
+		multiplication(getInputNumber());
 
 	}
 
@@ -21,6 +19,12 @@ public class TableMethod2 {
 		scan.close();
 
 		inputKey = inputKey.replaceAll("[^\\d]", "");
+
+		if (inputKey == "") {
+			System.out.println("Error : Input value have to be number ");
+			System.exit(0);
+			
+		}
 
 		int returnNum = Integer.parseInt(inputKey);
 
