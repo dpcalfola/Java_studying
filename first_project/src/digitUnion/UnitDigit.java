@@ -1,4 +1,4 @@
-package makingMyMethod;
+package digitUnion;
 
 public class UnitDigit {
 	

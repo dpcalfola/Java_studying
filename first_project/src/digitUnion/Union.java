@@ -1,4 +1,4 @@
-package makingMyMethod;
+package digitUnion;
 
 import java.util.Scanner;
 
