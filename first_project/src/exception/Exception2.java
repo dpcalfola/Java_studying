@@ -10,12 +10,16 @@ public class Exception2 {
         System.out.println(score[0]);
         System.out.println(score[1]);
         System.out.println(score[2]);
+
+
         try {
             System.out.println(score[3]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Error : Array is empty ");
 //            e.printStackTrace();
         }
+
+
         System.out.println(score[2]);
 
         int a = score.length;
@@ -30,7 +34,7 @@ public class Exception2 {
 
     }
 
-    private static int arrayLength(int[] A){
+    private static int arrayLength(int[] A) {
         return A.length;
     }
 

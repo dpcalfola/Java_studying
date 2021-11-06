@@ -1,5 +1,6 @@
 package testPackage;
 
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class ToRepeatMain_failed {
@@ -9,12 +10,17 @@ public class ToRepeatMain_failed {
 
         while (mainWhileA) {
             System.out.print("If you want to end program, input chracter Q: ");
-            String checkQ;
+            String checkQ = "a";
             Scanner scan = new Scanner(System.in);
-            checkQ = scan.next();
-            scan.close();
 
-            System.out.println(checkQ);
+            try {
+                checkQ = scan.next();
+                scan.close();
+
+            } catch (NoSuchElementException e) {
+
+            }
+
 
             if (checkQ.equals("Q")) {
                 System.out.println("Program is gonna be ended");
