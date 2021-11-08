@@ -1,7 +1,7 @@
 package cardApp;
 
 
-public class MakeCard {
+public class MakeCard2 {
 
     static double selectedCardNum = makeCardNum();
     static double selectedCardKind = makeCardKind();
@@ -32,15 +32,15 @@ public class MakeCard {
         String returnStrCardNum = null;
 
         if (selectedCardNum == 1) {
-            returnStrCardNum = "A";
-        } else if (selectedCardNum >= 2 && selectedCardNum <= 10) {
-            returnStrCardNum = Integer.toString((int) selectedCardNum);
+            returnStrCardNum = "Ace";
         } else if (selectedCardNum == 11) {
-            returnStrCardNum = "J";
+            returnStrCardNum = "Jack";
         } else if (selectedCardNum == 12) {
-            returnStrCardNum = "Q";
+            returnStrCardNum = "Queen";
         } else if (selectedCardNum == 13) {
-            returnStrCardNum = "K";
+            returnStrCardNum = "King";
+        } else {
+            returnStrCardNum = Integer.toString((int) selectedCardNum);
         }
 
 //        System.out.println(selectedCardNum);
