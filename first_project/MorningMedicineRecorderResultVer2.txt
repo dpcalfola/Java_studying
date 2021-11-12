@@ -1,0 +1,2 @@
+Fri Nov 12 14:00:20 KST 2021: Morning medicine is taken.
+Fri Nov 12 14:00:28 KST 2021: Added medicine is taken.
