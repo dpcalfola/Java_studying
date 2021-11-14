@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class TextRecorderAppVer2 {
+public class TextRecorderAppVer2_yet {
     static boolean answer0 = false, addAnswer0 = false;
     static Scanner scan = new Scanner(System.in);
 
