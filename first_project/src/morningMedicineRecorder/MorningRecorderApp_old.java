@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class TextRecorderApp {
+public class MorningRecorderApp_old {
     static boolean answer0 = false;
     static Scanner scan = new Scanner(System.in);
 
@@ -49,7 +49,7 @@ public class TextRecorderApp {
 
     private static void recordTextFile() throws IOException {
 
-        FileWriter fw = new FileWriter("MorningMedicineRecorderResult.txt", true);
+        FileWriter fw = new FileWriter("./src/morningMedicineRecorder/RecorderResult.txt", true);
 
         fw.write(DateMethod.today() + ": Morning medicine is taken.\n");
         System.out.println("\nText file recorded : " + DateMethod.today() + " - Morning medicine is taken.");
