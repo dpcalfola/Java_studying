@@ -9,3 +9,5 @@ Sun Nov 14 17:36:41 KST 2021: Morning medicine is taken.
 Mon Nov 15 12:59:36 KST 2021: Morning medicine is taken.
 Tue Nov 16 12:56:38 KST 2021: Morning medicine is taken. (only 웰)
 Wed Nov 17 13:30:32 KST 2021: Morning medicine is taken.
+Thu Nov 18 15:04:02 KST 2021: Morning medicine is taken.
+Fri Nov 19 17:16:52 KST 2021: Morning medicine is taken.
