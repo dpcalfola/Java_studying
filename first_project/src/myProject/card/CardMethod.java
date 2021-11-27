@@ -7,7 +7,7 @@ public class CardMethod {
         int[] arr = new int[52];
 
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = i+1 ;
+            arr[i] = i ;
         }
         return arr ;
     }
