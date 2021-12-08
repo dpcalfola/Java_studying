@@ -18,3 +18,6 @@ Tue Nov 23 14:47:40 KST 2021: Morning medicine is taken.
 Wed Nov 24 08:36:41 KST 2021: Morning medicine is taken.
 Thu Nov 25 11:14:48 KST 2021: Morning medicine is taken.
 Fri Nov 26 09:02:59 KST 2021: Morning medicine is taken.
+
+Tue Nov 30 13:08:08 KST 2021: Morning medicine is taken.
+Wed Dec 01 15:19:16 KST 2021: Morning medicine is taken.
